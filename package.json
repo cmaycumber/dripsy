@@ -11,6 +11,7 @@
 		"next": "yarn workspaces dripsy-next-example dev",
 		"next:ios": "yarn workspaces dripsy-next-example ios",
 		"next:android": "yarn workspaces dripsy-next-example android",
+		"docs:start": "yarn workspace docs start",
 		"postinstall": "expo-yarn-workspaces check-workspace-dependencies"
 	},
 	"workspaces": [
