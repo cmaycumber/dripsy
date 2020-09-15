@@ -1,3 +1,4 @@
+/* eslint-disable react/display-name */
 /** @jsx jsx */
 import { jsx, Styled, components } from 'theme-ui'
 import { ThemeContext } from '@emotion/core'
@@ -66,10 +67,10 @@ export default () => {
             </Styled.a>
             <Styled.h2>Random Theme</Styled.h2>
             <Styled.p>
-              In order to show the power of Theme UI we've wired in a theme
+              {`In order to show the power of Theme UI we've wired in a theme
               generator to display random themes (color and typography). This
               illustrates the drastically different effects you can achieve with
-              a small theme object that's merged with the{' '}
+              a small theme object that's merged with the`}
               <Styled.a href="/presets">base theme</Styled.a>.
             </Styled.p>
             <Styled.p></Styled.p>

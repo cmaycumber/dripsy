@@ -1,3 +1,4 @@
+/* eslint-disable react/display-name */
 /** @jsx jsx */
 import { jsx, Styled, useColorMode } from 'theme-ui'
 import { useState, useRef } from 'react'
