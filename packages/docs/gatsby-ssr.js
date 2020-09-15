@@ -2,7 +2,8 @@ import React from 'react'
 import { renderToString } from 'react-dom/server'
 import { AppRegistry } from 'react-native'
 
-// import { Providers } from './src/components/Providers'
+export { wrapPageElement } from './src'
+
 
 export const replaceRenderer = ({
 	bodyComponent,
@@ -21,7 +22,3 @@ export const replaceRenderer = ({
 	setHeadComponents([styleElement])
 }
 
-/** Attaches the all the app providers in global state */
-// export const wrapRootElement = ({ element }) => {
-// 	return <Providers>{element}</Providers>
-// }

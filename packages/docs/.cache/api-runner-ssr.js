@@ -8,9 +8,6 @@ var plugins = [{
       plugin: require('/Users/chadwickmaycumber/Documents/GitHub/dripsy/node_modules/gatsby-plugin-mdx/gatsby-ssr'),
       options: {"plugins":[],"extensions":[".mdx",".md"],"remarkPlugins":[null]},
     },{
-      plugin: require('/Users/chadwickmaycumber/Documents/GitHub/dripsy/node_modules/gatsby-plugin-offline/gatsby-ssr'),
-      options: {"plugins":[]},
-    },{
       plugin: require('/Users/chadwickmaycumber/Documents/GitHub/dripsy/packages/docs/gatsby-ssr'),
       options: {"plugins":[]},
     }]

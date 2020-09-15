@@ -1,7 +1,7 @@
 import React from 'react';
 import { AppRegistry } from 'react-native';
 
-// import { Providers } from './src/components/Providers';
+export { wrapPageElement } from './src'
 
 export const replaceHydrateFunction = () => {
   return (element, rootTag, callback) => {
@@ -11,7 +11,3 @@ export const replaceHydrateFunction = () => {
   };
 };
 
-/** Attaches the all the app providers in global state */
-// export const wrapRootElement = ({ element }) => {
-//   return <Providers>{element}</Providers>;
-// };
