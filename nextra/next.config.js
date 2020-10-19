@@ -8,11 +8,12 @@ const withTM = require('next-transpile-modules')(['dripsy'])
 const { withExpo } = require('@expo/next-adapter')
 
 module.exports = withPlugins([
-	withExpo(
-		withNextra(
-			withTM({
-				projectRoot: __dirname,
-			})
-		)
-	),
+	withNextra,
+	withTM,
+	[
+		withExpo,
+		{
+			projectRoot: __dirname,
+		},
+	],
 ])

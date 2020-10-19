@@ -16,12 +16,7 @@
 		"@expo/next-adapter": "2.1.0"
 	},
 	"scripts": {
-		"next": "next dev",
-		"start": "expo start",
-		"android": "expo start --android",
-		"ios": "expo start --ios",
-		"web": "expo web",
-		"eject": "expo eject"
+		"next": "next dev"
 	},
 	"private": true
 }
