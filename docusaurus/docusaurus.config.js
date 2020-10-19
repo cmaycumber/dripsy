@@ -105,8 +105,5 @@ module.exports = {
 			},
 		],
 	],
-	plugins: [
-		'docusaurus-plugin-react-native-web',
-		path.resolve(__dirname, 'plugins/custom-webpack'),
-	],
+	plugins: [path.resolve(__dirname, 'plugins/custom-webpack')],
 }

@@ -12,12 +12,9 @@ module.exports = function () {
 		async configureWebpack(config, isServer, utils) {
 			// Add Expo support...
 			const configWithExpo = withUnimodules(config, {
-				projectRoot: __dirname,
+				projectRoot: root,
 				babel: {
-					dangerouslyAddModulePathsToTranspile: [
-						// Ensure that all packages starting with @evanbacon are transpiled.
-						'@evanbacon',
-					],
+					dangerouslyAddModulePathsToTranspile: ['dripsy'],
 				},
 			})
 

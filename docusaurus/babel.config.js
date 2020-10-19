@@ -6,8 +6,8 @@ module.exports = function (api) {
 	api.cache(true)
 	return {
 		presets: [
-			require.resolve('@docusaurus/core/lib/babel/preset'),
 			'babel-preset-expo',
+			require.resolve('@docusaurus/core/lib/babel/preset'),
 		],
 		plugins: [
 			[
