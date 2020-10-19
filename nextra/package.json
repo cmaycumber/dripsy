@@ -1,37 +1,27 @@
 {
-	"name": "with-expo-typescript",
-	"version": "1.0.0",
-	"main": "node_modules/expo/AppEntry.js",
+	"dependencies": {
+		"expo": "37.0.7",
+		"next": "9.4.4",
+		"next-compose-plugins": "^2.2.0",
+		"next-transpile-modules": "3.3.0",
+		"nextra": "^0.2.6",
+		"nextra-theme-docs": "^0.1.12",
+		"react": "16.9.0",
+		"react-dom": "16.9.0",
+		"react-native": "https://github.com/expo/react-native/archive/sdk-37.0.1.tar.gz",
+		"react-native-web": "0.11.7"
+	},
+	"devDependencies": {
+		"@babel/core": "7.9.0",
+		"@expo/next-adapter": "2.1.0"
+	},
 	"scripts": {
-		"dev": "next",
-		"build": "next build",
+		"next": "next dev",
 		"start": "expo start",
 		"android": "expo start --android",
 		"ios": "expo start --ios",
-		"web": "next",
-		"eject-next": "next-expo customize",
-		"eject": "expo eject",
-		"type-check": "tsc"
+		"web": "expo web",
+		"eject": "expo eject"
 	},
-	"dependencies": {
-		"expo": "~39.0.0",
-		"next": "9.3.5",
-		"react": "~16.13.0",
-		"react-dom": "~16.13.0",
-		"react-native": "https://github.com/expo/react-native/archive/sdk-39.0.2.tar.gz",
-		"react-native-web": "0.13.13"
-	},
-	"devDependencies": {
-		"@babel/core": "^7.8.6",
-		"@expo/next-adapter": "2.1.9",
-		"@types/node": "14.0.4",
-		"@types/react": "16.9.35",
-		"@types/react-dom": "16.9.8",
-		"@types/react-native": "0.62.10",
-		"babel-preset-expo": "~8.1.0",
-		"typescript": "4.0",
-		"next-compose-plugins": "^2.2.0",
-		"next-transpile-modules": "3.3.0"
-	},
-	"license": "MIT"
+	"private": true
 }
